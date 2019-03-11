@@ -27,8 +27,10 @@ div {
   padding: 0;
   overflow: hidden;
   background-color: #f4d942;
-  float: left;
-  
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
 } 
 
 li a {
@@ -44,4 +46,13 @@ li a:hover {
   color: black;
   background-color: red;
   text-decoration: none;
+}
+
+.choices {
+  text-align: center;
+}
+
+.bottompage {
+  display: flex;
+  flex-direction: row;
 }
