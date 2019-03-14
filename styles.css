@@ -3,7 +3,7 @@ div {
 }
 
 .wrapper {
-  background-image: url(background1.jpg);
+  background-color: #a50606;
   background-size: cover;
   color: white;
   padding: 60px;
@@ -13,12 +13,11 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 3px solid yellow;
 }
 
-.logo {
-  padding: 10px;
+#logo {
   border-radius: 50px;
+  border: 2px solid yellow;
 }
 
 .nav ul li{
@@ -63,17 +62,17 @@ li a:hover {
 }
 
 .contactus {
-  border: 2px solid black; 
+  border: 2px dotted yellow; 
   display: inline-block;
 }
 
 .hours {
-  border: 2px solid black;
+  border: 2px dotted yellow;
   display: inline-block;
 }
 
 .socials {
-  border: 2px solid black;
+  border: 2px dotted yellow;
   display: inline-block;
 }
 

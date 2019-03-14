@@ -3,8 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../../bootstrap.css">
+	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<title>Oriental Gent</title>
 </head>
 <body>
@@ -12,16 +16,11 @@
 <header>
 	<div class="header">
 		<div class="top">
-			<div class="logo">
-				<img src="logo.png" alt="Logo Oriental">
-			</div>
-			<div class="name">
-				<p>ORIENTAL GARDEN<p>
-			</div>
-			<div class="logo">
-				<img src="logo.png" alt="Logo Oriental">
+			<div class="logo align-center">
+				<img src="logo.png" id="logo" alt="Logo Oriental" width="125%">
 			</div>
 		</div>
+<br>
 
 		<div class="nav">
 			<ul>
@@ -34,7 +33,8 @@
 </header>
 	<div class="homecontent">
 		<div class="introduction">
-			<p>Oriental is een Chinees afhaalrestaurant gelegen te Gent: Kortrijksesteenweg 701. <br>Het is dicht bij de Sterre, 'het Blauw Kotje' alsook de Delhaize.<p>
+			<p>Oriental is een Chinees afhaalrestaurant gelegen te Gent: Kortrijksesteenweg 701. <br>
+				Het is dicht bij de Sterre, 'het Blauw Kotje' alsook de Delhaize.<p>
 		</div>
 		<div class="description">
 			<p>In onze menukaart hebben we verschillende soorten maaltijden zoals soepen,  menu's en veel meer. <br> Deze maaltijden zijn alleen om mee te nemen en kunnen ook telefonisch besteld worden. Bel hiervoor naar 09/245.07.02<br>
@@ -49,7 +49,39 @@
 			<ul>
 				<li>Kortrijksesteenweg 701</li>
 				<li>9000 Gent</li>
-				<!--<li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.2127641053!2d3.7110043152211603!3d51.030690979559616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373e74097c507%3A0xefbd525f05315acd!2sOriental!5e0!3m2!1sen!2sbe!4v1552044431593" width="800" height="600" frameborder="0" style="border:0" allowfullscreen>Map</a> Add lightbox!-->
+				<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modalGM">Vind ons hier!</button>
+				<!--Modal: Name-->
+					<div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-lg" role="document">
+
+					    <!--Content-->
+					    <div class="modal-content">
+
+					      <!--Body-->
+					      <div class="modal-body mb-0 p-0">
+
+					        <!--Google map-->
+					        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+					          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.2105930751377!2d3.7110119152211496!3d51.030731079559565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373e740ba0201%3A0xc9188bc3bb5b3794!2sKortrijksesteenweg+701%2C+9000+Gent!5e0!3m2!1sen!2sbe!4v1552579394995" width="768" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+					        </div>
+
+					        <!--Google Maps-->
+
+					      </div>
+
+					      <!--Footer-->
+					      <div class="modal-footer justify-content-center">
+
+					        <button type="button" class="btn btn-primary btn-md">Save location </button>
+					        <button type="button" class="btn btn-outline-primary btn-md" data-dismiss="modal">Close </button>
+
+					      </div>
+
+					    </div>
+					    <!--/.Content-->
+
+					  </div>
+					</div>
 				<li>09/245.07.02</li>
 			</ul>
 		</div>
