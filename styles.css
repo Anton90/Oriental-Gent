@@ -65,23 +65,20 @@ li a:hover {
   text-align: center;
 }
 
-.contactus {
-  border: 2px dotted yellow; 
+.contactus, .hours, .socials {
+  border: 2px dashed yellow; 
+  text-align: center;
   display: inline-block;
-}
-
-.hours {
-  border: 2px dotted yellow;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .socials {
-  border: 2px dotted yellow;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
-.contactcontent {
-  display: inline-flex;
-  flex-direction: row; 
-  justify-content: space-between;
+.btn {
+  color: white;
 }
