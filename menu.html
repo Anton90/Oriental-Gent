@@ -6,9 +6,6 @@
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 	<title>Oriental Gent - Menu</title>
 </head>
@@ -45,10 +42,48 @@
 	</div>
 </header>
 <br>
-	<div class="menucontent">
+	<div class="dropdown dropright">
+	  <button class="btn btn-warning dropdown-toggle" type="button" id="menudropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Maak hier jouw keuze</button>
+		  <ul class="dropdown-menu bg-warning" aria-labelledby="menudropdown">
+		    <li><a class="dropdown-item" href="#">Menu</a></li>
+		    <li><a class="dropdown-item" href="#">Soepen</a></li>
+		    <li><a class="dropdown-item" href="#">Voorgerechten</a></li>
+		    <li><a class="dropdown-item" href="#">Rijst/pasta gerechten</a></li>
+		    <li class="dropdown-submenu dropright bg-warning"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+		    	<ul class="dropdown-menu bg-warning">
+		    		<li><a class="dropdown-item" href="#">test</a></li>
+		    		<li><a class="dropdown-item" href="#">test1</a></li>
+		    		<li><a class="dropdown-item" href="#">test2</a></li>
+		    	</ul>
+		    </li>
+
+		    <li><a class="dropdown-item" href="#">Groentengerechten</a></li>
+		    <li class="dropdown-submenu dropright bg-warning"><a class="dropdown-item dropdown-toggle" href="#">Vleesgerechten</a>
+		    	<ul class="dropdown-menu bg-warning">
+		    		<li><a class="dropdown-item" href="#">test</a></li>
+		    		<li><a class="dropdown-item" href="#">test1</a></li>
+		    		<li><a class="dropdown-item" href="#">test2</a></li>
+		    		<li><a class="dropdown-item" href="#">test3</a></li>
+		    	</ul>
+		    </li>
+
+		    <li class="dropdown-submenu dropright bg-warning"><a class="dropdown-item dropdown-toggle" href="#">Visgerechten</a>
+		    	<ul class="dropdown-menu bg-warning">
+		    		<li><a class="dropdown-item" href="#">test</a></li>
+		    		<li><a class="dropdown-item" href="#">test1</a></li>
+		    		<li><a class="dropdown-item" href="#">test2</a></li>
+		    		<li><a class="dropdown-item" href="#">test3</a></li>
+		    	</ul>
+		    </li>
+
+		    <li><a class="dropdown-item" href="#">Supplementen</a></li>
+		    <li><a class="dropdown-item" href="#">Desserts</a></li>
+		  </ul>
+	</div>
+	<!--<div class="menucontent">
 		<div class="dropdown">
 			<button class="dropbtn">Maak hier jouw keuze!
-  				<div class="dropdown-content"> <!-- Add links -->
+  				<div class="dropdown-content"> 
   					<a href="#">Menu's </a>
   					<a href="#">Soepen</a>
   					<a href="#">Voorgerechten</a>
@@ -69,6 +104,7 @@
   				</div>
   			</button>
 		</div>
+	</div>-->
 		<div class="choices">
 <h3>Menu's</h3>
 <h4>Gewoon menu</h4>
@@ -129,7 +165,7 @@ Voor 4 pers. Hoofdgerecht verder uitgebreid met: Garnalen op szechuan wijze<br>
 
 <h4>Peking eend menu</h4>
 <br>
-(voor 2 persoon)<br>
+(voor 2 personen)<br>
 
 1. Peking eend soep<br>
 2. Mini loempia<br>
@@ -140,7 +176,7 @@ Voor 4 pers. Hoofdgerecht verder uitgebreid met: Garnalen op szechuan wijze<br>
 
 <h4>Sea - foodmenu</h4>
 <br>
-(voor 2 persoon)<br>
+(voor 2 personen)<br>
 
 1. Maissoep met krab<br>
 2. Gebakken krabbenpoten<br>
@@ -361,7 +397,6 @@ Voor 4 pers. Hoofdgerecht verder uitgebreid met: Garnalen op szechuan wijze<br>
 2. Gebakken banaan<br>
 <br>
 		</div>
-	</div>
 <footer>
 	<div class="bottompage">
 		<div class="contactus col-sm-12">
@@ -420,5 +455,11 @@ Voor 4 pers. Hoofdgerecht verder uitgebreid met: Garnalen op szechuan wijze<br>
 	</div>
 </footer>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>

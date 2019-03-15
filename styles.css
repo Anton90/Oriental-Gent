@@ -8,6 +8,7 @@ div {
   background-size: cover;
   color: white;
   padding: 60px;
+  
 }
 
 .top {
@@ -20,9 +21,10 @@ div {
   border: 2px solid yellow;
 }
 
-.nav {
+.navbar {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 24px;
 }
 
 /*.nav ul li{
