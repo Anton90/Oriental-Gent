@@ -110,3 +110,13 @@ li a:hover {
   font-size: 19px;
 }
 
+.formbutton {
+  background-color: white;
+  color: black;
+  border: 0px;
+}
+
+.formbutton:hover {
+  background-color: #FECA00;
+}
+
