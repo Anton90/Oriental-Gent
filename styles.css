@@ -102,8 +102,11 @@ li a:hover {
 }
 
 #map-container {
-  max-width: 75%;
-  margin-left: 10%;
+  text-align: center;
 }
 
+.info {
+  text-align: center;
+  font-size: 19px;
+}
 
