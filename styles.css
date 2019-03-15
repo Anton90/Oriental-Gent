@@ -8,7 +8,7 @@ div {
   background-size: cover;
   color: white;
   padding: 60px;
-  
+
 }
 
 .top {
@@ -27,31 +27,12 @@ div {
   font-size: 24px;
 }
 
-/*.nav ul li{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f4d942;
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
-  align-items: center;
-} */
 
 ul {
   list-style-type: none;
 }
 
-/*li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}*/
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   color: black;
   background-color: red;
@@ -84,4 +65,19 @@ li a:hover {
 
 #map, .fab {
   color: white;
+}
+
+.dropdown-menu  li  a:hover{
+    background-color: red;
+    background-image: none;
+}
+
+.dropdown-menu  li  a:focus {
+    background-color: red;
+    background-image: none;
+}
+
+.contactcontent {
+  display:flex;
+  flex-direction: row;
 }
