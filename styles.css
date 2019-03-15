@@ -21,7 +21,7 @@ div {
 
 #logo {
   border-radius: 50px;
-  border: 0px solid yellow;
+  border: 0px solid #F9CE4A;
 }
 
 .navbar {
@@ -47,19 +47,23 @@ li a:hover {
 }
 
 .bottompage {
+  max-width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-  size: 75%; 
 }
 
 .contactus, .hours, .socials {
-  border: 2px dashed yellow; 
+  border: 2px dashed #FECA00; 
   text-align: center;
   display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hours {
+  padding-top: 15px; 
 }
 
 .socials {
