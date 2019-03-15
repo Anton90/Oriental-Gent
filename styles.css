@@ -1,5 +1,5 @@
 body {
-  background: url("top.jpg") no-repeat, url("middle.jpg") repeat;
+  background: url("images/top.jpg") no-repeat, url("images/middle.jpg") repeat;
   background-size: 100%;
 }
 
