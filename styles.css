@@ -21,15 +21,12 @@ div {
 
 #logo {
   border-radius: 50px;
-  border: 0px solid #F9CE4A;
 }
 
 .navbar {
   margin: 0 auto;
-  display:flex;
-  justify-content: space-around;
   font-size: 24px;
-  width: 75%;
+  width: 85%;
   text-align: center;
 }
 
@@ -42,6 +39,10 @@ li a:hover {
   color: black;
   background-color: red;
   text-decoration: none;
+}
+
+.homecontent {
+  text-align: center; 
 }
 
 .choices {
@@ -58,7 +59,7 @@ li a:hover {
 }
 
 .contactus, .hours, .socials {
-  border: 2px dashed #FECA00; 
+  border: 5px double #FECA00; 
   text-align: center;
   display: inline-block;
   display: flex;
@@ -93,3 +94,16 @@ li a:hover {
   display:flex;
   flex-direction: row;
 }
+
+#contacthours {
+  margin-left: 0;
+  text-align: center;
+  font-size: 21px;
+}
+
+#map-container {
+  max-width: 75%;
+  margin-left: 10%;
+}
+
+
