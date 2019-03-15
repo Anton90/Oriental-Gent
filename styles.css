@@ -80,6 +80,10 @@ li a:hover {
   color: white;
 }
 
+.dropdown {
+  margin-left: 7.5%;
+}
+
 .dropdown-menu  li  a:hover{
     background-color: red;
     background-image: none;
@@ -119,4 +123,5 @@ li a:hover {
 .formbutton:hover {
   background-color: #FECA00;
 }
+
 
