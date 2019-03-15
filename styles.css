@@ -1,7 +1,6 @@
 body {
-  background-image: url("middle.jpg");
+  background: url("top.jpg") no-repeat, url("middle.jpg") repeat;
   background-size: 100%;
-  background-repeat: repeat;
 }
 
 div {
