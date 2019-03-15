@@ -9,6 +9,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 	<title>Oriental Gent</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
 			</div>
 		</div>
 <br>
-		<nav class="navbar navbar-expand-lg navbar-light bg-warning rounded">
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning rounded d-flex justify-content-around">
 			 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
 			
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,26 +30,18 @@
 				  </button>
 				  <div class="collapse navbar-collapse" id="navbar">
 				    <ul class="navbar-nav">
-				      <li class="nav-item col-12">
+				      <li class="nav-item">
 				        <a class="nav-link" href="index.html">Home</a>
 				      </li>
-				      <li class="nav-item col-12">
+				      <li class="nav-item">
 				        <a class="nav-link" href="menu.html">Menu</a>
 				      </li>
-				      <li class="nav-item col-12">
+				      <li class="nav-item">
 				        <a class="nav-link" href="contact.html">Contact</a>
 				      </li>
 				      </ul>
 				  </div>
 				</nav>
-
-		<!--<div class="navbar navbar-nav">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="menu.html">Menu</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>-->
 	</div>
 </header>
 <br>
@@ -58,7 +51,7 @@
 				Het is dicht bij de Sterre, 'het Blauw Kotje' alsook de Delhaize.<p>
 		</div>
 		<div class="description">
-			<p>In onze menukaart hebben we verschillende soorten maaltijden zoals soepen,  menu's en veel meer. <br> Deze maaltijden zijn alleen om mee te nemen en kunnen ook telefonisch besteld worden. Bel hiervoor naar 09/245.07.02<br>
+			<p>In onze menukaart hebben we verschillende soorten maaltijden zoals soepen,  menu's en veel meer. <br> Deze maaltijden zijn alleen om mee te nemen en kunnen ook telefonisch besteld worden. Bel hiervoor naar <b>09/245.07.02</b><br>
 			Neem gerust een kijkje in onze menukaart.<br><br>
 			Oriental Gent wenst u alvast smakelijk eten!</p>
 		</div>
@@ -70,7 +63,7 @@
 			<ul>
 				<li>Kortrijksesteenweg 701</li>
 				<li>9000 Gent</li>
-				<button type="button" class="btn btn-danger-color-dark" data-toggle="modal" data-target="#modalGM"><b>Vind ons hier!</b></button>
+				<button type="button" id="map" class="btn btn-danger-color-dark" data-toggle="modal" data-target="#modalGM">Vind ons <b>hier</b>!</button>
 				<!--Modal: Name-->
 					<div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					  <div class="modal-dialog modal-lg" role="document">

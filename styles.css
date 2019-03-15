@@ -1,5 +1,6 @@
 div {
   border: 0px solid black;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .wrapper {
@@ -79,6 +80,6 @@ li a:hover {
   flex-direction: column;
 }
 
-.btn {
+#map, .fab {
   color: white;
 }
