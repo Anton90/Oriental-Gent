@@ -3,8 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../../bootstrap.css">
+	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 	<title>Oriental Gent - Contact</title>
 </head>
 <body>
@@ -12,26 +17,34 @@
 <header>
 	<div class="header">
 		<div class="top">
-			<div class="logo">
-				<img src="logo.png" alt="Logo Oriental">
-			</div>
-			<div class="name">
-				<p>ORIENTAL GARDEN<p>
-			</div>
-			<div class="logo">
-				<img src="logo.png" alt="Logo Oriental">
+			<div class="logo align-center">
+				<img src="logo.png" id="logo" alt="Logo Oriental"width="100%">
 			</div>
 		</div>
-
-		<div class="nav">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="menu.html">Menu</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
+<br>
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning rounded d-flex justify-content-around">
+			 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+			
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbar">
+				    <ul class="navbar-nav">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="menu.html">Menu</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="contact.html">Contact</a>
+				      </li>
+				      </ul>
+				  </div>
+				</nav>
 	</div>
 </header>
+<br>
 	<div class="contactcontent">
 		<div class="contactform">
 			<h2>Contact</h2>
@@ -79,15 +92,47 @@
 	</div>
 <footer>
 	<div class="bottompage">
-		<div class="contactus">
+		<div class="contactus col-sm-12">
 			<ul>
 				<li>Kortrijksesteenweg 701</li>
 				<li>9000 Gent</li>
-				<!--<li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.2127641053!2d3.7110043152211603!3d51.030690979559616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373e74097c507%3A0xefbd525f05315acd!2sOriental!5e0!3m2!1sen!2sbe!4v1552044431593" width="800" height="600" frameborder="0" style="border:0" allowfullscreen>Map</a> Add lightbox!-->
+				<button type="button" id="map" class="btn btn-danger-color-dark" data-toggle="modal" data-target="#modalGM">Vind ons <b>hier</b>!</button>
+				<!--Modal: Name-->
+					<div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-lg" role="document">
+
+					    <!--Content-->
+					    <div class="modal-content">
+
+					      <!--Body-->
+					      <div class="modal-body mb-0 p-0">
+
+					        <!--Google map-->
+					        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+					          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.2105930751377!2d3.7110119152211496!3d51.030731079559565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373e740ba0201%3A0xc9188bc3bb5b3794!2sKortrijksesteenweg+701%2C+9000+Gent!5e0!3m2!1sen!2sbe!4v1552579394995" width="95%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+					        </div>
+
+					        <!--Google Maps-->
+
+					      </div>
+
+					      <!--Footer-->
+					      <div class="modal-footer justify-content-center">
+
+					        <button type="button" class="btn btn-primary btn-md">Save location </button>
+					        <button type="button" class="btn btn-outline-primary btn-md" data-dismiss="modal">Close </button>
+
+					      </div>
+
+					    </div>
+					    <!--/.Content-->
+
+					  </div>
+					</div>
 				<li>09/245.07.02</li>
 			</ul>
 		</div>
-		<div class="hours">
+		<div class="hours col-sm-12">
 			<p>Openingsuren:<br>
 				Dinsdag - zondag (Ook op feestdagen)<br>
 				Van 11:30 - 14:00<br>
@@ -96,8 +141,9 @@
 				Maandag gesloten!<br>
 			(behalve op feestdagen)</p>
 		</div>
-		<div class="socials">
-			<a href="https://www.facebook.com/orientalgent/" class="fa fa-facebook" alt="Facebook Oriental"></a>
+		<div class="socials col-sm-12">
+			<p>Volg ons!</p>
+			<a href="https://www.facebook.com/orientalgent/" class="btn btn-social-icon btn-facebook"><span class="fab fa-facebook-square fa-3x"></span></a>
 		</div>
 	</div>
 </footer>
