@@ -29,11 +29,6 @@ div {
   width: 85%;
 }
 
-#navbar {
-  display: grid;
-  justify-content: space-around;
-}
-
 ul {
   list-style-type: none;
 }
@@ -138,3 +133,4 @@ hr {
   border: 1px solid #FECA00;
   width: 20%;
 }
+
