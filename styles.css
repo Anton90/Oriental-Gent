@@ -29,15 +29,21 @@ div {
   width: 85%;
 }
 
-ul {
-  list-style-type: none;
+.nav-item {
+  font-family: 'Itim', cursive;
+  font-size: 34px;
+  color: #BA0000;
 }
 
+.nav-item:hover {
+  background-color: #BA0000;
+  border-radius: 20px;
+  color: white;
+  font-size: 38px;
+}
 
-li a:hover {
-  color: black;
-  background-color: #A30000;
-  text-decoration: none;
+ul {
+  list-style-type: none;
 }
 
 .homecontent {
