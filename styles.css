@@ -27,7 +27,11 @@ div {
   margin: 0 auto;
   font-size: 24px;
   width: 85%;
-  text-align: center;
+}
+
+#navbar {
+  display: grid;
+  justify-content: space-around;
 }
 
 ul {
@@ -37,7 +41,7 @@ ul {
 
 li a:hover {
   color: black;
-  background-color: red;
+  background-color: #A30000;
   text-decoration: none;
 }
 
@@ -85,13 +89,13 @@ li a:hover {
 }
 
 .dropdown-menu  li  a:hover{
-    background-color: red;
-    background-image: none;
+    background-color: #BA0000;
+    color: white;
 }
 
 .dropdown-menu  li  a:focus {
-    background-color: red;
-    background-image: none;
+    background-color: #BA0000;
+    color: white;
 }
 
 .contactcontent {
