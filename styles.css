@@ -130,3 +130,7 @@ li a:hover {
   font-size: 14px;
 }
 
+hr {
+  border: 1px solid #FECA00;
+  width: 20%;
+}
