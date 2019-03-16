@@ -39,11 +39,12 @@ div {
   background-color: #BA0000;
   border-radius: 20px;
   color: white;
-  font-size: 38px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .homecontent {
@@ -58,10 +59,8 @@ ul {
 .bottompage {
 
   max-width: 75%;
-  display: inline-grid; 
-  grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-  margin-left: 15%;
+  margin-left: 12.5%;
 }
 
 .contactus, .hours, .socials {
@@ -71,6 +70,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#contactus {
+  margin-right: 10px;
 }
 
 .hours {
